@@ -1,18 +1,18 @@
 const builder = (glyph, color, size) => `
 <svg
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    stroke-linejoin="round"
-    stroke-miterlimit="1.414"
-    xmlns="http://www.w3.org/2000/svg"
-    aria-label="${glyph}"
-    viewBox="0 0 32 32"
-    preserveAspectRatio="xMidYMid meet"
-    fill="${color}"
-    width="${size}"
-    height="${size}"
+  fill-rule="evenodd"
+  clip-rule="evenodd"
+  stroke-linejoin="round"
+  stroke-miterlimit="1.414"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-label="${glyph}"
+  viewBox="0 0 32 32"
+  preserveAspectRatio="xMidYMid meet"
+  fill="${color}"
+  width="${size}"
+  height="${size}"
 >
-    ${glyphs[glyph]}
+  ${glyphs[glyph]}
 </svg>`;
 
 const glyphs = {
