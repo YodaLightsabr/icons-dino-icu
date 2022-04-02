@@ -1514,3 +1514,5 @@ class IconLibrary {
     return builder(glyph, color, size = '32');
   }
 }
+
+export default IconLibrary;
