@@ -1510,8 +1510,8 @@ const glyphs = {
 
 class IconLibrary {
   constructor () {}
-  static icon (glyph, size, color = '#ffffff') {
-    return builder(glyph, color, size = '32');
+  static icon (glyph, size = '32', color = '#ffffff') {
+    return builder(glyph, color, size);
   }
 }
 
