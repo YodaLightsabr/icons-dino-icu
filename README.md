@@ -1,0 +1,1 @@
+An attempt to make a CDN for the Hack Club icons.
