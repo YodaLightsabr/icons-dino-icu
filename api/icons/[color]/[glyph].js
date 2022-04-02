@@ -7,7 +7,7 @@ export default async function handler(request, response) {
     response.setHeader('Content-Type', 'image/svg+xml');
     if (color.startsWith('0x') && color.length === 8) color = '#' + color.substring(2);
     if (glyph.endsWith('.svg')) glyph = glyph.substring(0, glyph.length - 4);
-    response.end(IconLibrary.icon(glyph, undefined, color));
+    response.end(IconLibrary.icon(glyph, 256, color));
 }
 
 // What a request should look like:
