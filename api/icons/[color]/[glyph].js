@@ -1,4 +1,4 @@
-import IconLibrary from '../../../icons.js';
+import IconLibrary from '../../../IconLibrary/icons.js';
 
 export default async function handler(request, response) {
     let { color, glyph } = request.query;
