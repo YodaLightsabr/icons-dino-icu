@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/yodalightsabr/icons-dino-icu/issues"
   },
-  "homepage": "https://github.com/yodalightsabr/icons-dino-icu#readme"
+  "homepage": "https://github.com/yodalightsabr/icons-dino-icu#readme",
+  "type": "module"
 }
