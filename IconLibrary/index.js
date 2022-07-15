@@ -1,3 +1,1 @@
-import IconLibrary from './icons.js';
-
-export default IconLibrary;
+module.exports = require('./index.js');
