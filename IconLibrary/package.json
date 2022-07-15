@@ -1,6 +1,6 @@
 {
   "name": "icons-dino-icu",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "icons.dino.icu",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/yodalightsabr/icons-dino-icu/issues"
   },
-  "homepage": "https://github.com/yodalightsabr/icons-dino-icu#readme"
+  "homepage": "https://github.com/yodalightsabr/icons-dino-icu#readme",
+  "type": "module"
 }

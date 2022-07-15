@@ -1515,4 +1515,4 @@ class IconLibrary {
   }
 }
 
-module.exports = IconLibrary;
+export default IconLibrary;

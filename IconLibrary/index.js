@@ -1,1 +1,3 @@
-module.exports = require('./index.js');
+import icons from './icons';
+
+export default icons;
